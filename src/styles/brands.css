@@ -6,14 +6,36 @@ section#brands{
     gap: 5px;
     border-bottom-left-radius: 64px;
     border-bottom-right-radius: 64px;
+    justify-content: center;
 
 
-    img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .image-1{
+        width: 64px;
+        background-color: transparent;
+    }
+    .image-2{
+        width: 64px;
+        background-color: transparent;
 
     }
+    .image-3{
+        width: 64px;
+        background-color: transparent;
 
+    }
+    .image-4{
+        width: 64px;
+        background-color: transparent;
+
+    }
+    .image-5{
+        width: 64px;
+        background-color: transparent;
+
+    }
+    .image-6{
+        width: 64px;
+        background-color: transparent;
+
+    }
 }
