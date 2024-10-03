@@ -1,41 +1,14 @@
-section#brands{
+section#brands {
     background-color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 65px;
     display: flex;
-    gap: 5px;
+    gap: 25px;
     border-bottom-left-radius: 64px;
     border-bottom-right-radius: 64px;
-    justify-content: center;
+    justify-content: space-between;
+img{
+    width: 80px;
+    height: 40px;
 
-
-    .image-1{
-        width: 64px;
-        background-color: transparent;
-    }
-    .image-2{
-        width: 64px;
-        background-color: transparent;
-
-    }
-    .image-3{
-        width: 64px;
-        background-color: transparent;
-
-    }
-    .image-4{
-        width: 64px;
-        background-color: transparent;
-
-    }
-    .image-5{
-        width: 64px;
-        background-color: transparent;
-
-    }
-    .image-6{
-        width: 64px;
-        background-color: transparent;
-
-    }
+}
 }

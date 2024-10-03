@@ -1,7 +1,11 @@
-h2{
-    background-color: #f0f0f0;
-    justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
+section#collaborate {
+
+
+    h2 {
+        background-color: #f0f0f0;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        text-align: center;
+    }
 }

@@ -1,0 +1,51 @@
+section#contact {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 64px;
+    padding-bottom: 128px;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    gap: 25px;
+
+    .img-collaboration {
+        width: 60px;
+    }
+
+    h2 {
+        text-align: center;
+        line-height: 1.2;
+
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content:space-between;
+        gap: 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        li{
+            a.emailme{
+                color: white;
+                background-color: #1a1a1a;
+                border-radius: 999px;
+                padding: 8px 16px;
+            }
+            a.whatsapp{
+                color: #1a1a1a;
+                background-color: white;
+                border-color: #1a1a1a;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 999px;
+                padding: 8px 16px;
+
+            }
+
+        }
+    }
+
+
+}
