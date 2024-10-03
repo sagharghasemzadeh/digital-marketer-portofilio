@@ -1,0 +1,19 @@
+section#brands{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 5px;
+    border-bottom-left-radius: 64px;
+    border-bottom-right-radius: 64px;
+;
+
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+}
