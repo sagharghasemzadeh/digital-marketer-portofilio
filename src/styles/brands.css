@@ -1,8 +1,8 @@
 section#brands {
     background-color: #ffffff;
-    padding: 65px;
+    padding: 75px;
     display: flex;
-    gap: 25px;
+    gap: 30px;
     border-bottom-left-radius: 64px;
     border-bottom-right-radius: 64px;
     justify-content: space-between;
