@@ -11,7 +11,6 @@ section#brands {
   border-bottom-right-radius: 64px;
 
   img {
-    width: 80px;
-    height: 40px;
+    height: 30px;
   }
 }
