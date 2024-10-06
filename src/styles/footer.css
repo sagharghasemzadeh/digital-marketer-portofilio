@@ -1,9 +1,15 @@
 footer {
-  color: var(--surface-900);
+  background-color: var(--surface-900);
+
+  display: flex;
+  justify-content: space-between;
+
   hr {
   }
+
   b {
   }
+
   ul {
     li {
     }

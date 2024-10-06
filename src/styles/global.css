@@ -20,3 +20,7 @@ body {
   background-color: var(--surface-800);
   color: var(--color-body-foreground);
 }
+
+.line {
+  border-top: 1px solid black;
+}
