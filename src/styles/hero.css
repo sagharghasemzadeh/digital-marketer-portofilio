@@ -1,5 +1,7 @@
 section#hero {
   background-color: #f0f0f0;
+  box-shadow: 0 0 0 64px #ffffff;
+
   display: grid;
   justify-items: center;
   justify-content: center;
