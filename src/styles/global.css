@@ -1,6 +1,8 @@
 :root {
   --surface-900: #ffffff;
   --surface-800: #f0f0f0;
+
+  --color-body-foreground: #1a1a1a;
 }
 
 * {
@@ -16,4 +18,5 @@ html {
 
 body {
   background-color: var(--surface-800);
+  color: var(--color-body-foreground);
 }
