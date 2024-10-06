@@ -1,5 +1,5 @@
 footer {
-  color: white;
+  color: var(--surface-900);
   hr {
   }
   b {

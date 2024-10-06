@@ -1,5 +1,5 @@
 section#contact {
-  background-color: #ffffff;
+  background-color: var(--surface-900);
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -23,11 +23,11 @@ section#contact {
     justify-content: space-between;
     gap: 30px;
     text-decoration: none;
-    color: white;
+    color: var(--surface-900);
     font-size: 12px;
     li {
       a.email-me {
-        color: white;
+        color: var(--surface-900);
         background-color: #1a1a1a;
         border-radius: 999px;
         padding: 8px 16px;
@@ -35,7 +35,7 @@ section#contact {
       }
       a.whatsapp {
         color: #1a1a1a;
-        background-color: white;
+        background-color: var(--surface-900);
         border-color: #424141;
         border-style: solid;
         border-width: 1px;
