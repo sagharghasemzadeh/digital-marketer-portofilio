@@ -1,11 +1,14 @@
 section#brands {
   background-color: #ffffff;
-  padding: 75px;
+
   display: flex;
+  justify-content: space-between;
   gap: 30px;
+
+  padding: 75px;
+
   border-bottom-left-radius: 64px;
   border-bottom-right-radius: 64px;
-  justify-content: space-between;
 
   img {
     width: 80px;
