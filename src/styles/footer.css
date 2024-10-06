@@ -1,14 +1,11 @@
-footer{
-    color: white;
-    hr{
-
+footer {
+  color: white;
+  hr {
+  }
+  b {
+  }
+  ul {
+    li {
     }
-    b{
-
-    }
-    ul{
-        li{
-
-        }
-    }
+  }
 }
