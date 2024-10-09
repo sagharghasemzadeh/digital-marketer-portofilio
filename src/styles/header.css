@@ -1,65 +1,68 @@
 header {
-  background-color: #f0f0f0;
+    background-color: #f0f0f0;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    z-index: 1;
+    position: relative;
 
-  padding: 32px 64px;
-
-  .contact {
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: space-between;
 
-    button {
-      background-color: white;
+    padding: 32px 64px;
 
-      min-width: 64px;
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 16px;
 
-      padding: 8px;
+        button {
+            background-color: var(--surface-900);
 
-      border: none;
-      border-radius: 999px;
-    }
+            min-width: 64px;
 
-    .email-box {
-      background-color: #f0f0f0;
+            padding: 8px;
 
-      display: flex;
-      align-items: center;
-
-      border-radius: 999px;
-
-      .email {
-        padding: 8px 16px;
-      }
-
-      button.copy {
-      }
-    }
-
-    button.cv {
-    }
-  }
-
-  nav {
-    ul {
-      list-style: none;
-
-      display: flex;
-      gap: 8px;
-
-      li {
-        a {
-          color: inherit;
-
-          text-decoration: none;
+            border: none;
+            border-radius: 999px;
         }
-      }
 
-      .slash {
-      }
+        .email-box {
+            background-color: #f0f0f0;
+
+            display: flex;
+            align-items: center;
+
+            border-radius: 999px;
+
+            .email {
+                padding: 8px 16px;
+            }
+
+            button.copy {
+            }
+        }
+
+        button.cv {
+        }
     }
-  }
+
+    nav {
+        ul {
+            list-style: none;
+
+            display: flex;
+            gap: 8px;
+
+            li {
+                a {
+                    color: inherit;
+
+                    text-decoration: none;
+                }
+            }
+
+            .slash {
+            }
+        }
+    }
 }

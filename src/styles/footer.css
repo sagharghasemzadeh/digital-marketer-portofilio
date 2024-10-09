@@ -1,13 +1,12 @@
-footer{
-    color: white;
-    hr{
+footer {
+    background-color: var(--surface-900);
+
+    b {
 
     }
-    b{
 
-    }
-    ul{
-        li{
+    ul {
+        li {
 
         }
     }
