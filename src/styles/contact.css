@@ -1,13 +1,13 @@
 section#contact {
-    background-var(--surface-700);
+    background-color: var(--surface-900);
     display: grid;
     justify-content: center;
     justify-items: center;
-    padding-top: 64px;
-    padding-bottom: 128px;
+    padding-top: 16px;
+    padding-bottom: 32px;
     border-top-left-radius: 64px;
     border-top-right-radius: 64px;
-    gap: 25px;
+    gap: 40px;
 
     .collaboration {
         width: 60px;
@@ -25,7 +25,6 @@ section#contact {
         justify-content: space-between;
         gap: 30px;
         text-decoration: none;
-        var(--surface-700): var(--surface-900);
         font-size: 12px;
 
         li {

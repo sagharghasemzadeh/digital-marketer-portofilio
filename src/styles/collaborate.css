@@ -2,10 +2,14 @@ section#collaborate {
 
 
     h2 {
-        background-var(--surface-700): var(--surface-800);
+        background-color: var(--surface-800);
         justify-content: center;
         padding-bottom: 50px;
         padding-top: 50px;
         text-align: center;
     }
+    .line{
+
+    }
+
 }

@@ -1,5 +1,5 @@
 section#brands {
-    background-var(--surface-700): var(--surface-700);
+    background-color: var(--surface-900) !important;
 
     justify-content: space-between;
     display: flex;
