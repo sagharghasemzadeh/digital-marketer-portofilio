@@ -1,5 +1,5 @@
 section#contact {
-    background-color: #ffffff;
+    background-var(--surface-700);
     display: grid;
     justify-content: center;
     justify-items: center;
@@ -25,13 +25,13 @@ section#contact {
         justify-content: space-between;
         gap: 30px;
         text-decoration: none;
-        color: var(--surface-900);
+        var(--surface-700): var(--surface-900);
         font-size: 12px;
 
         li {
             .email-me {
                 color: var(--surface-900);
-                background-color: #1a1a1a;
+                background-color: var(--surface-700);
                 border-radius: 999px;
                 padding: 8px 16px;
                 text-decoration: none;

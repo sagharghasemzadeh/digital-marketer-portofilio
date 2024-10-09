@@ -1,8 +1,9 @@
 :root{
     --surface-900: #ffffff;
-    --sarface-800: #f0f0f0;
     --surface-700: #000000;
+    --surface-800: #f0f0f0;
 }
+
 * {
     box-sizing: border-box;
 
@@ -15,11 +16,14 @@ html {
 }
 
 body {
-    background-color: #f0f0f0;
+    background-var(--surface-700): var(--surface-800);
 
 }
 
 .line{
-    border: 1px solid var(--surface-700);
+    border: 1px solid var(--surface-800);
+
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
