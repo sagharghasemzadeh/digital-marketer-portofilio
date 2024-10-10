@@ -1,0 +1,54 @@
+section#services {
+  .heading {
+    position: relative;
+
+    .line {
+      border-color: var(--surface-700);
+    }
+
+    h2 {
+      background-color: var(--surface-900);
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+
+      padding: 0.5rem 1.5rem;
+
+      border-radius: 999rem;
+
+      transform: translate(-50%, -50%) rotate(-10deg);
+
+      font-size: 1rem;
+    }
+  }
+
+  ul.cards {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    > li {
+      max-width: 240px;
+
+      img {
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+      }
+
+      h3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+      }
+    }
+  }
+}
