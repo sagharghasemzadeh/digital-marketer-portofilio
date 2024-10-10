@@ -30,7 +30,7 @@ section#contact {
         li {
             .email-me {
                 color: var(--surface-900);
-                background-color: var(--surface-700);
+                background-color: black;
                 border-radius: 999px;
                 padding: 8px 16px;
                 text-decoration: none;
