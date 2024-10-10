@@ -8,11 +8,6 @@ footer {
   gap: 24px;
   padding: 24px;
 
-  span {
-    font-size: 10px;
-    color: var(--surface-700);
-  }
-
   nav {
     ul {
       list-style: none;
@@ -25,9 +20,6 @@ footer {
 
           text-decoration: none;
         }
-      }
-
-      span {
       }
     }
   }
