@@ -12,6 +12,7 @@ footer {
     font-size: 10px;
     color: var(--surface-700) !important;
   }
+
   nav {
     ul {
       list-style: none;
@@ -19,10 +20,13 @@ footer {
       gap: 8px;
 
       li {
-        text-decoration: none;
+        a {
+          color: inherit;
 
-        color: inherit;
+          text-decoration: none;
+        }
       }
+
       span {
       }
     }
