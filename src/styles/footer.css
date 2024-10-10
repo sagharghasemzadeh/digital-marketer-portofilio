@@ -10,7 +10,7 @@ footer {
 
   span {
     font-size: 10px;
-    color: var(--surface-700) !important;
+    color: var(--surface-700);
   }
 
   nav {
