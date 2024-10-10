@@ -1,4 +1,5 @@
 section#collaborate {
+    padding: 64px;
 
 
     h2 {
@@ -9,6 +10,7 @@ section#collaborate {
         text-align: center;
     }
     .line{
+        color: black;
 
     }
 
