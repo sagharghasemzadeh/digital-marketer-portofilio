@@ -1,5 +1,8 @@
 header {
-  background-color: #f0f0f0;
+  background-color: var(--surface-800) !important;
+
+  z-index: 1;
+  position: relative;
 
   display: flex;
   align-items: center;
@@ -13,7 +16,7 @@ header {
     gap: 16px;
 
     button {
-      background-color: white;
+      background-color: var(--surface-900);
 
       min-width: 64px;
 
@@ -24,7 +27,7 @@ header {
     }
 
     .email-box {
-      background-color: #f0f0f0;
+      background-color: var(--surface-800) !important;
 
       display: flex;
       align-items: center;

@@ -1,14 +1,30 @@
-footer{
-    color: white;
-    hr{
+footer {
+  background-color: var(--surface-900);
 
-    }
-    b{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 
-    }
-    ul{
-        li{
+  gap: 24px;
+  padding: 24px;
 
-        }
+  span {
+    font-size: 10px;
+    color: var(--surface-700) !important;
+  }
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 8px;
+
+      li {
+        text-decoration: none;
+
+        color: inherit;
+      }
+      span {
+      }
     }
+  }
 }
